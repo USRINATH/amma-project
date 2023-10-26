@@ -1,0 +1,20 @@
+package com.sri.core;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class Employee {
+
+    long id;
+    String name;
+    Double sal;
+    String address;
+    String city;
+    String gender;
+}
